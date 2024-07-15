@@ -1,0 +1,52 @@
+/*===============
+    COMMON CSS
+================*/
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    background-color: var(--background);
+}
+
+:root{
+    --background:rgb(170, 170, 170);
+    --button:rgb(224, 44, 109);
+    --dark1:rgb(58, 58, 58);
+    --dark2:rgb(24, 25, 31);
+    --dark3:rgba(0, 0, 0, 0.87);
+    --dark4:rgb(120, 120, 133);
+    --dark5:rgb(94, 99, 102);
+    --dark6:rgb(10, 8, 38);
+    --dark7:rgb(108, 108, 108);
+}
+
+/*=====================
+    MULTIPLE USE CSS
+=======================*/
+
+.inter{
+    font-family: "Inter", sans-serif;
+}
+
+.margin{
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.width{
+    max-width: 1250px;
+}
+
+
+
+/*==============
+    MAIN CSS
+===============*/
